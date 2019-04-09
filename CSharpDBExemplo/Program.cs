@@ -190,7 +190,7 @@ namespace CSharpDBExemplo
                     Console.WriteLine("Contato: (ID: " + c.Id + ") " + c.Nome + " | " + c.Telefone + " | " + c.Email);
                 }
             }
-            catch (ContatoException e)
+            catch (ContatoNaoExisteException e)
             {
                 Console.WriteLine(e.Message);
             }
