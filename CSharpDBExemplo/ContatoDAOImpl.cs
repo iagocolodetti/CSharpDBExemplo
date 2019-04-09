@@ -234,7 +234,7 @@ namespace CSharpDBExemplo
 #if DEBUG
                     Console.WriteLine(e.ToString());
 #else
-                    Console.WriteLine("Não foi possível adicionar o contato.");
+                    Console.WriteLine("Não foi possível buscar os contatos.");
 #endif
                 }
                 finally
@@ -274,7 +274,7 @@ namespace CSharpDBExemplo
 #if DEBUG
                     Console.WriteLine(e.ToString());
 #else
-                    Console.WriteLine("Não foi possível adicionar o contato.");
+                    Console.WriteLine("Não foi possível atualizar o contato.");
 #endif
                 }
                 finally
@@ -303,7 +303,7 @@ namespace CSharpDBExemplo
 #if DEBUG
                     Console.WriteLine(e.ToString());
 #else
-                    Console.WriteLine("Não foi possível adicionar o contato.");
+                    Console.WriteLine("Não foi possível deletar o contato.");
 #endif
                 }
                 finally

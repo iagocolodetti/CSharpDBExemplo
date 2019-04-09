@@ -1,8 +1,10 @@
-﻿
+﻿using System;
+
 /* iagocolodetti */
 
 namespace CSharpDBExemplo
 {
+    [Serializable]
     class Contato
     {
         private int id;
